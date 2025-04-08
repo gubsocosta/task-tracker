@@ -1,0 +1,31 @@
+{
+  "name": "alura-tracker",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "run-p type-check \"build-only {@}\" --",
+    "preview": "vite preview",
+    "build-only": "vite build",
+    "type-check": "vue-tsc --build --force",
+    "lint": "eslint . --fix"
+  },
+  "dependencies": {
+    "vue": "^3.5.13"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.24.0",
+    "@types/node": "^22.14.0",
+    "@vitejs/plugin-vue": "^5.2.1",
+    "@vue/tsconfig": "^0.7.0",
+    "eslint": "^9.24.0",
+    "eslint-plugin-vue": "^10.0.0",
+    "globals": "^16.0.0",
+    "typescript": "~5.7.2",
+    "typescript-eslint": "^8.29.1",
+    "vite": "^6.2.0",
+    "vue-tsc": "^2.2.4"
+  },
+  "packageManager": "pnpm@10.7.1+sha512.2d92c86b7928dc8284f53494fb4201f983da65f0fb4f0d40baafa5cf628fa31dae3e5968f12466f17df7e97310e30f343a648baea1b9b350685dafafffdf5808"
+}
