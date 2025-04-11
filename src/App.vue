@@ -20,7 +20,7 @@ import BoxCard from '@/components/BoxCard.vue';
 import Form from '@/components/Form.vue';
 import SideBar from '@/components/SideBar.vue';
 import TaskItem from '@/components/TaskItem.vue';
-import type ITask from '@/types/ITask.ts';
+import type { ITask } from '@/types/ITask.ts';
 import { ref } from 'vue';
 
 const taskList = ref<ITask[]>([]);

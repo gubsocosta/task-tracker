@@ -14,7 +14,7 @@
 <script setup lang="ts">
 import BoxCard from '@/components/BoxCard.vue';
 import StopwatchDisplay from '@/components/StopwatchDisplay.vue';
-import type ITask from '@/types/ITask.ts';
+import type { ITask } from '@/types/ITask.ts';
 
 const props = defineProps<{
   task: ITask

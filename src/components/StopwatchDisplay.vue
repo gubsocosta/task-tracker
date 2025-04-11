@@ -8,12 +8,12 @@
 import { computed } from 'vue';
 
 const props = withDefaults(
-    defineProps<{
+  defineProps<{
       timeInSeconds: number
     }>(),
-    {
-      timeInSeconds: 0
-    }
+  {
+    timeInSeconds: 0
+  }
 );
 
 const elapsedTime = computed(() => new Date(props.timeInSeconds * 1000).toISOString().substring(11, 19));

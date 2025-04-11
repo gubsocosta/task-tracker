@@ -1,4 +1,4 @@
-export default interface ITask {
+export interface ITask {
   description: string;
   durationInSeconds: number;
 }

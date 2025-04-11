@@ -22,7 +22,7 @@
 
 <script setup lang="ts">
 import Stopwatch from '@/components/Stopwatch.vue';
-import type ITask from '@/types/ITask.ts';
+import type { ITask } from '@/types/ITask.ts';
 import { ref } from 'vue';
 
 const emit = defineEmits(['saveTask']);
